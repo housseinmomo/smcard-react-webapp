@@ -63,9 +63,9 @@ function WebsocketClient2() {
         
         console.log("Récupération en cours....");
 
-        const host_ip = "192.168.100.162"
+        const host_ip = "192.168.56.1"
         
-        const socket = new WebSocket(`ws://${host_ip}:8081/ws`);
+        const socket = new WebSocket(`ws://${host_ip}:8081/read-card`);
 
         socket.onopen = () => {
         console.log("WebSocket connection established");
