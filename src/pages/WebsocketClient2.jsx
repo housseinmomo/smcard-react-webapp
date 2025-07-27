@@ -63,7 +63,7 @@ function WebsocketClient2() {
         
         console.log("Récupération en cours....");
 
-        const host_ip = "192.168.56.1"
+        const host_ip = "192.168.137.1"
         
         const socket = new WebSocket(`ws://${host_ip}:8081/read-card`);
 
